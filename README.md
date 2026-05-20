@@ -1,3 +1,4 @@
+<img width="1804" height="1464" alt="image" src="https://github.com/user-attachments/assets/bbc2a7e8-474f-463d-9cd1-e2b01a953bb0" />
 # ArchUnpack (批量加密压缩包解压工具)
 
 ArchUnpack 是一个专为 Windows 设计的现代化、高性能的批量压缩包解压工具。它支持嵌套压缩包的递归解压、多密码字典暴力尝试、智能分卷合并以及魔数伪装识别。
