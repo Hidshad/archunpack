@@ -1,0 +1,25 @@
+[project]
+name = "archunpack"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["py7zr>=0.21", "rarfile>=4.1", "pyzipper>=0.3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-mock>=3.12", "mypy>=1.8", "ruff>=0.3"]
+
+[project.scripts]
+archunpack = "archunpack.cli:main"
+archunpack-gui = "archunpack.gui:main"
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
